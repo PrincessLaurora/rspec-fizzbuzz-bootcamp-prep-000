@@ -4,14 +4,14 @@
 
 def fizzbuzz(int)
   if int % 3 == 0 
-     return "Fizz"
+     "Fizz"
  end
     if int % 5 == 0
-       return "Buzz"
+       "Buzz"
      end
       if int % 3 == 0 && int % 5 == 0
-        return "FizzBuzz"
+        "FizzBuzz"
           end
  else 
-   return "nil"
+   "nil"
 end
