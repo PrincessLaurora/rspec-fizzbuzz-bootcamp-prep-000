@@ -4,8 +4,10 @@
 
 def fizzbuzz(int)
   if int % 3 == 0 
- int % 5 == 0
- return "Fizz"
+     return "Fizz"
+ end
+    if int % 5 == 0
+       return ""
  
  end
 end
